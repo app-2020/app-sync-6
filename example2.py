@@ -6,6 +6,7 @@ app = Flask("Example 2")
 def index():
     return render_template(
         "example2.html",
-        name="Pepe")
+        name="Pepe",
+        occupation = "Teacher")
 
 app.run()

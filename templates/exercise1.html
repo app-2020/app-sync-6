@@ -2,6 +2,10 @@
   <head>
   </head>
   <body>
-    <!-- Add your code here  -->
+    {% if logged_in %}
+        <p>Welcome to the private area</p>
+    {% else %}
+        <p>Get out of here, hacker</p>
+    {% endif %}
   </body>
 </html>
